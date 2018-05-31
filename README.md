@@ -31,7 +31,8 @@ and splitting a neuron into different compartments
 ## Python
 
 ### [pymaid](https://github.com/schlegelp/pymaid)
-Python 3 package to fetch data from CATMAID server. Features include:
+Python 3 package to fetch data CATMAID server and analyse neuron anatomy and
+connectivity. Features include:
 - wrappers for CATMAID’s API to fetch data
 - custom neuron objects that perform on-demand data fetching
 - 2D (matplotlib) and 3D (vispy or plotly) plotting of neurons
@@ -44,5 +45,9 @@ Python 3 package to fetch data from CATMAID server. Features include:
 Slack chatbot that allows quick queries to a CATMAID server. Most notably it
 lets you NBLAST CATMAID neurons against e.g. the
 [flycircuit](http://www.flycircuit.tw/) database.
+
+### [Blender plugin](https://github.com/schlegelp/CATMAID-to-Blender)
+Plugin for [Blender 3D](https://www.blender.org/) that allows fetching data
+from CATMAID server for high-quality renderings.
 
 ### Misc
