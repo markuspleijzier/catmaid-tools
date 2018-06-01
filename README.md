@@ -26,20 +26,22 @@ tree structure, clustering together neurons by synapse position in 3D space
 and splitting a neuron into different compartments
 (e.g. axon-dendrite-primary neurite) and visualising these splits and clusters.
 
-### Misc
+### Scripts
+- [Random sampling of pre- or postsynaptic partners](https://github.com/flyconnectome/catmaid-tools/blob/master/R/Sample_random_downstream_profiles.R)
+
 
 ## Python
 
 ### [pymaid](https://github.com/schlegelp/pymaid)
-Python 3 package to fetch data CATMAID server and analyse neuron anatomy and
-connectivity. Features include:
-- wrappers for CATMAID’s API to fetch data
-- custom neuron objects that perform on-demand data fetching
-- 2D (matplotlib) and 3D (vispy or plotly) plotting of neurons
-- virtual neuron surgery (cutting, stitching, pruning, rerooting)
+Python 3 package to fetch data from CATMAID server and analyse neuron anatomy
+and connectivity. Features include:
+- wrappers for CATMAID’s API for fetching data
+- 2D and 3D plotting of neurons
+- virtual neuron surgery: cutting, stitching, pruning, rerooting, etc
 - R bindings (e.g. for libraries nat, nat.nblast and elmr)
 - interface with Blender 3D
 - import/export from/to SWC
+- load and annotate image data
 
 ### [catbot](https://github.com/flyconnectome/catbot)
 Slack chatbot that allows quick queries to a CATMAID server. Most notably it
@@ -50,4 +52,4 @@ lets you NBLAST CATMAID neurons against e.g. the
 Plugin for [Blender 3D](https://www.blender.org/) that allows fetching data
 from CATMAID server for high-quality renderings.
 
-### Misc
+### Scripts
