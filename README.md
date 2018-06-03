@@ -53,3 +53,4 @@ Plugin for [Blender 3D](https://www.blender.org/) that allows fetching data
 from CATMAID server for high-quality renderings.
 
 ### Scripts
+- [Neato dendrograms of neurons](https://github.com/flyconnectome/catmaid-tools/blob/master/Python/Dendrogram_Code.py)
