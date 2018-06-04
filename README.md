@@ -26,6 +26,11 @@ tree structure, clustering together neurons by synapse position in 3D space
 and splitting a neuron into different compartments
 (e.g. axon-dendrite-primary neurite) and visualising these splits and clusters.
 
+### [tracerutils](https://github.com/fmlove/tracerutils)
+R package with useful functions for EM tracers.  Provides shortcuts for common
+tasks like plotting neurons from CATMAID, randomly sampling synapses, and 
+checking for duplicate connectors.
+
 ### Scripts
 - [Random sampling of pre- or postsynaptic partners](https://github.com/flyconnectome/catmaid-tools/blob/master/R/Sample_random_downstream_profiles.R)
 
