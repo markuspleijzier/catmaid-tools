@@ -40,7 +40,7 @@ tasks like plotting neurons from CATMAID, randomly sampling synapses, and
 checking for duplicate connectors. *Fiona Love, WT UK*.
 
 ### Scripts
-- [Random sampling of pre- or postsynaptic partners](https://github.com/flyconnectome/catmaid-tools/blob/master/R/Sample_random_downstream_profiles.R). *Amelia Edmondson-Stait, WT UK*.
+- [Random sampling of pre- or postsynaptic partners](https://gist.github.com/AmeliaES/54dc9342bad1626ca37b475b0e2f8e08). *Amelia Edmondson-Stait, WT UK*.
 
 
 ## Python
